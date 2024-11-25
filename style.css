@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #FFD700; /* Золотой фон */
+  background-color: gold; /* Золотой фон */
   color: #333;
 }
 
@@ -28,7 +28,7 @@ h3 {
 
 /* Шапка */
 header {
-  background-color: #FFCC00; /* Более темный золотой для шапки */
+  background-color: #333;
   color: white;
   padding: 20px 0;
 }
@@ -82,7 +82,7 @@ ul li {
 
 /* Кнопка */
 .btn {
-  background-color: #FFD700; /* Золотой цвет кнопки */
+  background-color: #4CAF50;
   color: white;
   padding: 10px 20px;
   text-align: center;
@@ -92,12 +92,12 @@ ul li {
 }
 
 .btn:hover {
-  background-color: #FFCC00; /* Более темный золотой при наведении */
+  background-color: #45a049;
 }
 
 /* Подвал */
 footer {
-  background-color: #FFCC00; /* Тот же оттенок золота для футера */
+  background-color: #333;
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -105,4 +105,4 @@ footer {
 
 footer p {
   font-size: 1rem;
-}
+} 
