@@ -7,8 +7,8 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: gold; /* Золотой фон */
-  color: #333;
+  background-color: black; /* Черный фон */
+  color: white; /* Белый цвет текста для контраста */
 }
 
 .container {
@@ -18,17 +18,17 @@ body {
 
 h1, h2 {
   font-size: 2rem;
-  color: #333;
+  color: white; /* Белый цвет заголовков */
 }
 
 h3 {
   font-size: 1.5rem;
-  color: #555;
+  color: #bbb; /* Светло-серый цвет для подзаголовков */
 }
 
 /* Шапка */
 header {
-  background-color: transparent; /* Убрали фоновый цвет */
+  background-color: #333; /* Темный фон для шапки */
   color: white;
   padding: 20px 0;
 }
@@ -64,7 +64,7 @@ header nav ul li a:hover {
 }
 
 .section:nth-child(even) {
-  background-color: #fff;
+  background-color: #444; /* Более темный фон для четных секций */
 }
 
 .section h2 {
@@ -97,7 +97,7 @@ ul li {
 
 /* Подвал */
 footer {
-  background-color: transparent; /* Убрали фоновый цвет */
+  background-color: #333;
   color: white;
   padding: 20px 0;
   text-align: center;
