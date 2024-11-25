@@ -19,7 +19,7 @@
   <meta name="twitter:description" content="Присоединяйтесь к конкурсу Car Parking и получайте шанс выиграть призы!">
   <meta name="twitter:image" content="URL_к_изображению_для_шаринга">
   
-  <title>Конкурс  Car Parking NKR</title>
+  <title>Конкурс Car Parking NKR</title>
   
   <!-- CSS внутри HTML -->
   <style>
@@ -131,6 +131,19 @@
     footer p {
       font-size: 1rem;
     }
+
+    /* Стили для изображений призов */
+    .prize-images {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px; /* Промежуток между изображениями */
+    }
+
+    .prize-images img {
+      width: 100px; /* Задайте нужный размер для изображений */
+      height: auto;
+      max-width: 100%;
+    }
   </style>
 </head>
 <body>
@@ -173,7 +186,12 @@
       <p>Наши победители получат невероятные призы:</p>
       <ul>
         <li>1 место: 
-          <img src="https://example.com/first-place-prize.jpg" alt="Приз 1 место" style="width: 200px; height: auto; max-width: 100%;">
+          <div class="prize-images">
+            <img src="https://example.com/first-prize1.jpg" alt="Приз 1">
+            <img src="https://example.com/first-prize2.jpg" alt="Приз 2">
+            <img src="https://example.com/first-prize3.jpg" alt="Приз 3">
+            <img src="https://example.com/first-prize4.jpg" alt="Приз 4">
+          </div>
         </li>
         <li>2 место: </li>
         <li>3 место: </li>
