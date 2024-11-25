@@ -28,7 +28,7 @@ h3 {
 
 /* Шапка */
 header {
-  background-color: #333;
+  background-color: transparent; /* Убрали фоновый цвет */
   color: white;
   padding: 20px 0;
 }
@@ -97,7 +97,7 @@ ul li {
 
 /* Подвал */
 footer {
-  background-color: #333;
+  background-color: transparent; /* Убрали фоновый цвет */
   color: white;
   padding: 20px 0;
   text-align: center;
@@ -105,4 +105,4 @@ footer {
 
 footer p {
   font-size: 1rem;
-} 
+}
