@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Конкурс Car Parking</title>
+  <link rel="stylesheet" href="style.css">
   <style>
     body {
       margin: 0;
@@ -99,6 +100,12 @@
       font-size: 0.9rem;
       margin-top: 20px;
     }
+
+    #timer {
+      font-size: 1.5rem;
+      color: #4caf50;
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
@@ -152,8 +159,15 @@
     <a href="https://t.me/Alphhhhhaaabot" class="btn" target="_blank">Принять участие</a>
   </section>
 
+  <section id="timer-section" class="section">
+    <h2>Времени до конца конкурса:</h2>
+    <div id="timer"></div>
+  </section>
+
   <footer>
     &copy; 2024 Car Parking NKR. Все права защищены.
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
